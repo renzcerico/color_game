@@ -33,3 +33,21 @@
 .box-border {
     background-color: black;
 } 
+
+#btnSpin {
+    border-radius: 0;
+    font-weight: 500;
+    background-image: url('img/map-pin-solid.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#btnSpin.active {
+    transform: rotate(145deg);
+    -webkit-transition: -webkit-transform .10s ease-in-out;
+    transition: transform .10s ease-in-out;
+}
+
+#btnSpin:focus {
+    box-shadow: none;
+}
