@@ -1,0 +1,35 @@
+.box-red {
+    background-color: red;
+}
+
+.box-green {
+    background-color: green;
+}
+
+.box-blue {
+    background-color: blue;
+}
+
+.box-white {
+    background-color: white;
+}
+
+.box-yellow {
+    background-color: yellow;
+}
+
+.box-pink {
+    background-color: pink;
+}
+
+.box {
+    min-width: 100%;
+    height: 200px;
+    margin-top: .85rem;
+    margin-bottom: .85rem;
+    border: 1px solid white;
+}
+
+.box-border {
+    background-color: black;
+} 
